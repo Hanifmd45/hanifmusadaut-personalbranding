@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FECCB5;
+    height: 5000px;
+}
+
+/* Style to top-bar */
+
+.top-bar{
+    width: 1349px;
+    height: 75px;
+    background-color: #ffffff;
+    border-bottom: solid 2px black;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space;
+    bottom: 37px;
+    right: 70px;
+}
+
+.logo{
+    margin-top: 14px;
+    margin-left: 79px;
+}
+
+.menu a{
+
+	margin-right: 60px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.menu a:hover{
+	background-color: #9BD3D0;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.menu a:active{
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+
+/* style to home content */
+
+
+.content-home{
+    display: flex;
+}
+
+.my-foto{
+margin-left: 120px;
+margin-top: 70px;
+}
+
+.tag-name{
+    width: 468px;
+    height: 88px;
+    margin-top: 123px;
+    background-color: #9BD3D0;
+    border-radius: 16px;
+    border: solid 3px #000000;
+}
+
+.tag-name h1{
+    color: #3a3a3a;
+    font-size: 44px;
+    margin-left: 19px;
+    margin-top: 6px;
+}
+
+.content-home h2{
+    margin-top: 56px
+}
+.content-home p{
+    width: 568px;
+    height: 69px;
+    margin-top: 12px;
+    text-align: justify;
+}
+
+.hero-home{
+    margin-left: 137px;
+}
+
+/* style to about me */
+
+#ABOUT_ME{
+    margin-top: 180px;
+    width: 1349px;
+    height: 1469px;
+    background-color: #9BD3D0;
+}
+
+.banner-about{
+    position: relative;
+    width: 317px;
+    background-color: #FECCB5;
+    height: 90px;
+    border: solid 3px #000000;
+    border-radius: 16px;   
+    left: 510px;
+    top: 90px;
+}
+.banner-about h1{
+    color: #3a3a3a;
+    font-size: 44px;
+    margin-left: 35px;
+    margin-top: 6px;
+}
+
+.paragraf-satu{
+    text-indent: 50px;
+    width: 918px;
+    text-align: justify;
+    margin-top: 140px;
+    margin-left: 210px;
+}
+
+.paragraf-dua{
+    text-indent: 50px;
+    width: 918px;
+    text-align: justify;
+    margin-left: 210px;
+}
+
+.paragraf-tiga{
+    width: 677px;
+    height: 60px;
+    margin-left: 32px;
+    margin-top: 27px;
+}
+.smk{
+    margin-left: 234px;
+    margin-top: 41px;
+    display: flex;
+}
+
+.paragraf-empat{
+    width: 737px;
+    height: 60px;
+    margin-left: 32px;
+    margin-top: 27px;
+}
+.kuliah{
+    margin-left: 240px;
+    margin-top: 41px;
+    display: flex;
+}
+
+.paragraf-lima{
+    margin-top: 41px;
+    margin-left: 210px;
+    width: 896px;
+    height: 90px;
+    margin-top: 41px;
+    margin-left: 210px;
+}
+
+.image-coding{
+   margin-left: 400px;
+}
+
+.paragraf-enam{
+    margin-top: 41px;
+    margin-left: 210px;
+    width: 896px;
+    height: 60px;
+    margin-top: 41px;
+    margin-left: 210px;
+}
+.image-design{
+    margin-left: 500px;
+}
+
+/* style to MY PROJECT */
+
+.banner-projek{
+    width: 361px;
+    height: 90px;
+    background-color: #9BD3D0;
+    border-radius: 16px;
+    border: solid 3px #000000;
+    margin-top: 141px;
+    margin-left: 487px;
+}
+.banner-projek h1{
+    color: #3a3a3a;
+    font-size: 44px;
+    margin-left: 35px;
+    margin-top: 8px;
+}
+#MY-PROJECT h2{
+    color: #3a3a3a;
+    font-size: 24px;
+    margin-left: 580px;
+    margin-top: 43px;
+}
+
+.image-projek{
+    margin-top: 158px;
+    margin-left: 70px;
+}
+
+.another{
+    display: flex;
+    flex-direction: column;
+    margin-left: 530px;
+    margin-bottom: 85px;
+}
+.another a{
+    color: red;
+    padding-top: 30px;
+}
+
+.image-projek-1{
+    margin-top: 148px;
+    margin-left: 235px;
+}
+
+.image-projek-2{
+    margin-top: 130px;
+    margin-left: 135px;
+}
+
+.image-projek-3{
+    margin-left: 247px;
+    margin-top: 170px;
+}
+
+
+/* style to contact */
+
+#CONTACT{
+    width: 1349px;
+    border-top: solid 3px #000000;
+    height: 650px;
+    background-color: #ffff;
+}
+#CONTACT h1{
+    color: #3a3a3a;
+    font-size: 44px;
+    margin-top: 1px;
+    margin-left: 29px;
+}
+
+#CONTACT .banner-contact{
+    position: relative;
+    width: 284px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: solid 3px #000000;
+    top: 41px;
+    left: 560px;
+}
+
+.p-contact{
+    width: 830px;
+    height: 72px;
+    text-align: center;
+    margin-left: 253px;
+    margin-top: 100px;
+}
+
+
+.container-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 821px;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-top: 90px;
+    margin-left: 254px;
+}
+.instagram{
+    display: flex;
+}
+.instagram p{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.wa{
+    display: flex;
+}
+.wa p{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.mail{
+    display: flex;
+}
+.mail p{
+    margin-left: 10px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .top-bar {
+        width: 100%;
+    }
+    .menu {
+        right: 20px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .content-home {
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-foto, .hero-home {
+        margin-left: 0;
+    }
+    .tag-name {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .paragraf-satu, .paragraf-dua, .paragraf-tiga, .paragraf-empat, .paragraf-lima, .paragraf-enam {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .smk, .kuliah {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-coding, .image-design {
+        margin-left: 0;
+    }
+    .banner-projek {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-projek, .image-projek-1, .image-projek-2, .image-projek-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .another {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #CONTACT {
+        width: 100%;
+    }
+    #CONTACT .banner-contact {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .p-contact {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .container-icon {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu a {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .tag-name h1 {
+        font-size: 36px;
+    }
+    .banner-about h1, .banner-projek h1, #CONTACT h1 {
+        font-size: 36px;
+    }
+    .paragraf-satu, .paragraf-dua, .paragraf-tiga, .paragraf-empat, .paragraf-lima, .paragraf-enam {
+        font-size: 14px;
+    }
+    .container-icon {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu a {
+        margin: 10px 0;
+    }
+    .tag-name {
+        width: 100%;
+    }
+    .paragraf-satu, .paragraf-dua, .paragraf-tiga, .paragraf-empat, .paragraf-lima, .paragraf-enam {
+        width: 100%;
+        margin-left: 0;
+    }
+    .banner-projek {
+        width: 90%;
+    }
+    .container-icon {
+        width: 100%;
+    }
+}
